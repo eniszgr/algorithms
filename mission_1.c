@@ -1,4 +1,4 @@
-// 1000'nin altındaki 3 ve 5'in katları
+// 1000'nin altindaki 3 ve 5'in katlari
 #include <stdio.h>
 main(){
 	int i ,t=0 ;
