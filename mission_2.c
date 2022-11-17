@@ -1,3 +1,4 @@
+//4000000 geçmeyen Fibonacci dizisindeki cift terimlerin toplami
 #include<stdio.h>
 main()
 {
