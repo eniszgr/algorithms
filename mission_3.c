@@ -9,8 +9,8 @@ main()
 	for(i=2;i<=number;i++)	
 	{
 		counter=0;
-		while(checkprime(i)==1 &(number%i)==0) // before & function is controlling prime number or not 
-		{										// after & check a remainder from division of the number
+		while(checkprime(i)==1 &(number%i)==0) 	// before & function is controlling prime number or not 
+		{					// after & check a remainder from division of the number
 			number=number/i;
 			counter++; 		
 		}
