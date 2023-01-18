@@ -5,11 +5,11 @@ main()
 	unsigned number=20;
 	while(1)
 	{
-		if(divisible (number)==0)
+		if(divisible(number)==0)
 		{
 			number++;
 		}
-		else if(divisible (number)==1)
+		else if(divisible(number)==1)
 		{
 			break;
 		}
