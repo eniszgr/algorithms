@@ -3,9 +3,9 @@ int divisible(unsigned number);
 main()
 {
 	unsigned number=20;
-	while (1)
+	while(1)
 	{
-		if (divisible (number)==0)
+		if(divisible (number)==0)
 		{
 			number++;
 		}
@@ -17,12 +17,12 @@ main()
 	printf("%u",number);
 	
 }
-int divisible (unsigned number)
+int divisible(unsigned number)
 {
 	int i;
-	for (i=1;i<=20;i++)
+	for(i=1;i<=20;i++)
 	{
-		if (number%i!=0)
+		if(number%i!=0)
 		{
 			return 0;
 		}
