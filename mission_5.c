@@ -29,4 +29,3 @@ int divisible(unsigned number)
 	}
 	return 1;
 }
-
