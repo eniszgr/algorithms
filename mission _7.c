@@ -2,14 +2,14 @@
 int checkprime (long long unsigned  number);
 int main()
 {
-	long long unsigned int counter=1, number=1;
+	long long unsigned int counter=1,number=1;
 	while (1)
 	{
-		if (checkprime(number)==1 & counter != 10001)
+		if (checkprime(number)==1 & counter!=10001)
 		{
 			counter++;	
 		}
-		else if (checkprime(number)==1 & counter ==10001)
+		else if (checkprime(number)==1 & counter==10001)
 		{
 			printf ("%llu",number);
 			break;
