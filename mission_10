@@ -1,4 +1,4 @@
-﻿//find the sum of all the primes below two million
+//find the sum of all the primes below two million
 using System;
 using System.Collections.Generic;
 using System.Linq;
