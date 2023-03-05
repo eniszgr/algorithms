@@ -35,15 +35,9 @@ namespace PE_11
             int LineerGreatest = 0, LineerMultiply;
             for (int i = 3; i < 400; i++)
             {
-                if (i == 20)
-                {
-                    i += 3;
-                }
+                if (i == 20)  i += 3;
                 LineerMultiply = array[i] * array[i - 1] * array[i - 2] * array[i - 3];
-                if (LineerMultiply > LineerGreatest)
-                {
-                    LineerGreatest = LineerMultiply;
-                }
+                if (LineerMultiply > LineerGreatest) LineerGreatest = LineerMultiply;
             }
             
             //UpDown
@@ -54,10 +48,7 @@ namespace PE_11
                 {
                     int k = i + j;
                     UpDownMultiply = array[k] * array[k - 20] * array[k - 40] * array[k - 60];
-                    if (UpDownMultiply > UpDownGreatest)
-                    {
-                        UpDownGreatest = UpDownMultiply;
-                    }
+                    if (UpDownMultiply > UpDownGreatest) UpDownGreatest = UpDownMultiply;
                 }
             }
             
@@ -69,10 +60,7 @@ namespace PE_11
                 {
                     int k = i + j;
                     RightDownMultiply = array[k] * array[k - 21] * array[k - 42] * array[k - 63];
-                    if (RightDownMultiply> RightDownGreatest)
-                    {
-                        RightDownGreatest = RightDownMultiply;
-                    }
+                    if (RightDownMultiply> RightDownGreatest) RightDownGreatest = RightDownMultiply;
                 } 
             }
 
@@ -84,10 +72,7 @@ namespace PE_11
                 {
                     int k = i + j;
                     LeftDownMultiply = array[k] * array[k + 19] * array[k + 38] * array[k + 57];
-                    if (LeftDownMultiply > LeftDownGreatest) 
-                    {
-                        LeftDownGreatest = LeftDownMultiply;
-                    }
+                    if (LeftDownMultiply > LeftDownGreatest) LeftDownGreatest = LeftDownMultiply;
                 }
             }
             //Find The Biggest Multiply
