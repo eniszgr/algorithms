@@ -125,13 +125,9 @@ namespace ConsoleApp1
                 adding = total / 10; 
             }
             long result = adding;
-            for (int i=0; i < numbers2.Length; i++)
-            {
-                result += Convert.ToInt64(numbers2[i].Substring(0, 9));
-            }
+            for (int i=0; i < numbers2.Length; i++) result += Convert.ToInt64(numbers2[i].Substring(0, 9));
+            
             Console.WriteLine(result);
-            
-            
             Console.ReadLine();
         }
     }
