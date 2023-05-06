@@ -37,7 +37,6 @@ namespace euler_14
                     longestnum = i;
                 }
             }
-
             Console.WriteLine("The longest number     :"+longestnum);
             Console.WriteLine("The length of the chain:"+longestchain);
             Console.ReadLine();
